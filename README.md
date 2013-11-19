@@ -43,8 +43,8 @@ Usage
 ------------
 
 ```php
-<?php
-//use Coursio\Api;
+
+use CoursioApi;
 
 $API = new CoursioApi ("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY", "YOUR_SALT");
 
