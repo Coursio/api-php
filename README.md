@@ -44,7 +44,7 @@ Usage
 
 ```php
 
-use CoursioApi;
+use CoursioApi\CoursioApi;
 
 $API = new CoursioApi ("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY", "YOUR_SALT");
 
