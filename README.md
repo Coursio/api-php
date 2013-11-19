@@ -42,10 +42,11 @@ Installation
 Usage
 ------------
 
-```
-use Coursio\CoursioApi;
+```php
 
-$API = new CoursioApi (YOUR_PUBLIC_KEY, YOUR_PRIVATE_KEY, YOUR_SALT);
+use CoursioApi;
+
+$API = new CoursioApi ("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY", "YOUR_SALT");
 
 $result = $API->Get('courses');
 print_r($result);

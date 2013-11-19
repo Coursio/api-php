@@ -1,0 +1,25 @@
+{
+    "name":         "coursio/api-php",
+    "description":  "PHP wrapper for Coursio API",
+    "type":         "library",
+    "license":      "GPLv2",
+    "authors": [
+        {
+            "name":      "Henrik Hussfelt",
+            "email":     "henrik@coursio.com"
+        },
+        {
+            "name":      "Vladimir Osipov",
+            "email":     "vladimir.osipov@coursio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "CoursioApi\\": "src/"
+        }
+    }
+}
