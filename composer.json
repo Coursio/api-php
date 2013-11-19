@@ -2,6 +2,7 @@
     "name":         "coursio/api-php",
     "description":  "PHP wrapper for Coursio API",
     "type":         "library",
+    "homepage":     "https://api.coursio.com/",
     "license":      "GPLv2",
     "authors": [
         {

@@ -26,7 +26,7 @@ Installation
             "name": ...,
             "require": {
                 ...
-                "coursio/api-php": "1.0.0",
+                "coursio/api-php": "v1.0",
                 ...
             }
             ...
@@ -43,7 +43,7 @@ Usage
 ------------
 
 ```php
-
+<?php
 use CoursioApi\CoursioApi;
 
 $API = new CoursioApi ("YOUR_PUBLIC_KEY", "YOUR_PRIVATE_KEY", "YOUR_SALT");
@@ -56,5 +56,4 @@ $result = $API->Post('invitations', array
     'courseId' => 65,
 ));
 print_r($result);
-
 ```
