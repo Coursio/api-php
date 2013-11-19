@@ -1,10 +1,16 @@
 {
-    "name": "coursio/api-php",
-    "description": "PHP wrapper for Coursio API",
+    "name":         "coursio/api-php",
+    "description":  "PHP wrapper for Coursio API",
+    "type":         "library",
+    "license":      "GPLv2",
     "authors": [
         {
-            "name": "Vladimir Osipov",
-            "email": "vladimir.osipov@coursio.com"
+            "name":      "Henrik Hussfelt",
+            "email":     "henrik@coursio.com"
+        },
+        {
+            "name":      "Vladimir Osipov",
+            "email":     "vladimir.osipov@coursio.com"
         }
     ],
     "minimum-stability": "dev",
